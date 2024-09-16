@@ -8,13 +8,9 @@ while again.lower() == 'y':
     school = ["computer","science","physics","math","calculus","pencil","pen","notes","notebook","university","eraser","ruler","paper", "algebra","trigonometry","backpack",
               "calculator","textbook","chalk","board","marker"]
 
-    people = ["ahmad","amir","yaser","abdullah","mohammad","hisham","nezar","yousuf","hamza","isam","iyad","ayoub","salah","nader","ashraf","omar","sharif","abd","moath",
-              "ibraheem","awwab","musab","yaqub","rayan","muneeb"]
-
     combined_list = []
     combined_list.extend(fruits)
     combined_list.extend(school)
-    combined_list.extend(people)
 
     random_word = random.choice(combined_list) # chooses a random word from the list
 
@@ -22,9 +18,6 @@ while again.lower() == 'y':
         print("Hint: \"It's a fruit\"")
     elif random_word in school:
         print("Hint: \"It's school related\"")
-    elif random_word in people:
-        print("Hint: \"It's a person\"")
-
 
     letters = []
     i = 0
