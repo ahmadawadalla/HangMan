@@ -1,5 +1,3 @@
-package CSC15;
-
 import java.util.*;
 
 public class RockPaperScissors {
