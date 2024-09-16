@@ -1,5 +1,3 @@
-package CSC15;
-
 import java.util.*;
 public class SlotMachine {
    public static void main(String[] args) {
